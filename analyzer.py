@@ -45,7 +45,7 @@ while (sentences.count("")):
 num_sentences = len(sentences)
 
 # words
-words = re.sub("[^a-zA-Z| ]", "", text).split()
+words = re.sub("[^a-zA-Z| ]", "", text).lower().split()
 num_words = len(words)
 
 # word frequency
